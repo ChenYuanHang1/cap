@@ -168,5 +168,5 @@ CREATE TABLE `search`.`history` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 
-ALTER TABLE `hr_performance`.`objective_entity_rel` 
+ALTER TABLE `HR_PERFORMANCE`.`objective_entity_rel` 
 CHANGE COLUMN `entity_id` `entity_id` BIGINT(20) NOT NULL ;
